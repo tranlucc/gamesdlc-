@@ -1,0 +1,31 @@
+📅 Timeline làm game Flappy Doge
+⏳ Thời gian: 5 tuần (có thể điều chỉnh nếu cần)
+
+📌 Tuần 1: Cấu trúc dự án & hiển thị cơ bản
+✅ Tạo thư mục dự án, đặt tên file, sắp xếp lại thư mục res/
+✅ Cấu trúc code: Tạo Game.h, Game.cpp, Doge.h, Doge.cpp, main.cpp
+✅ Hiển thị cửa sổ game (SDL2)
+✅ Load ảnh nền, hiển thị nhân vật Doge ở vị trí cố định
+
+📌 Tuần 2: Điều khiển Doge & trọng lực
+✅ Thêm trọng lực (GRAVITY) để Doge tự rơi xuống
+✅ Xử lý nhảy bằng phím SPACE
+✅ Giữ Doge trong màn hình (không rơi quá sâu hoặc bay lên quá cao)
+✅ Tối ưu class Doge (di chuyển vào Doge.h, Doge.cpp)
+
+📌 Tuần 3: Ống khói & va chạm
+✅ Tạo class Pipe (Pipe.h, Pipe.cpp) để quản lý chướng ngại vật
+✅ Sinh ống khói tự động, di chuyển từ phải sang trái
+✅ Thêm cơ chế kiểm tra va chạm giữa Doge và ống khói
+✅ Game over nếu Doge va vào ống khói hoặc rơi xuống đất
+
+📌 Tuần 4: Điểm số & tối ưu game
+✅ Tạo hệ thống điểm số (đếm số ống khói vượt qua)
+✅ Hiển thị điểm số trên màn hình (SDL_ttf)
+✅ Thêm hiệu ứng khi Doge va chạm (hiệu ứng rung, dừng game)
+✅ Tối ưu code, kiểm tra lỗi, cải thiện FPS
+
+📌 Tuần 5: Hoàn thiện & bổ sung tính năng
+✅ Thêm màn hình bắt đầu và màn hình game over
+✅ Thêm âm thanh (SDL_mixer) cho nhảy, va chạm, ghi điểm
+✅ Xuất bản game (tạo file README.md, build exe)
